@@ -40,7 +40,34 @@ td {
     background-color: yellow; /* Puedes cambiar este color según tus preferencias */
 }
 
+/* Estilos para el contenedor de botones */
+#buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
+/* Estilos para los botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el calendario y el contenedor de recordatorios */
+#calendar, #recordatorioContainer {
+    /* Estilos para el calendario y el contenedor de recordatorios aquí */
+    color: black;
+}
+
+.selected-recordatorio {
+    background-color: #ffcc00;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 #reminder-container {
     margin-top: 20px;

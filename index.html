@@ -3,21 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Calendario con Recordatorios</title>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Calendario con Navegación</h1>
-    <div class="calendar-container">
-        <div class="header">
-            <button id="prevMonth">Anterior</button>
-            <h2 id="monthYear"></h2>
-            <button id="nextMonth">Siguiente</button>
-        </div>
-        <div id="calendar"></div>
-    </div>
-
+    <h1 id="monthYear"></h1>
+    <div id="calendar"></div>
+    <div id="recordatorioContainer"></div>
+    <button id="prevMonth">Mes Anterior</button>
+    <button id="nextMonth">Mes Siguiente</button>
     <script src="app.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 .calendar-container {
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
 table {
@@ -15,8 +16,6 @@ table {
     align-items: center;
     margin-bottom: 10px;
 }
-
-
 
 th, td {
     border: 1px solid #ccc;
@@ -35,4 +34,48 @@ td {
 
 .current-day {
     background-color: green;
+}
+
+.selected-day {
+    background-color: yellow; /* Puedes cambiar este color según tus preferencias */
+}
+
+
+
+#reminder-container {
+    margin-top: 20px;
+}
+
+#reminder {
+    width: 70%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#addReminder {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reminder-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#reminder-list li {
+    margin-bottom: 5px;
+}
+
+#prevMonth,
+#nextMonth {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
